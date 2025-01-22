@@ -11,14 +11,15 @@
     
     <div class="container">
         <div class="form-container">
-             <h2>Cadastro de Produtos</h2>
+             <h1 class="titulo">Cadastro de Produtos</h1>
+
              <form id="form-produtos">
                 
                  <label for="nome-produto">Nome do Produto:</label><br>
                  <input type="text" id="nome-produto" required><br>
 
                  <label for="descricao">Descrição do Produto:</label><br>
-                 <textarea id="descricao" cols="21.5" rows="5" required></textarea><br>
+                 <textarea id="descricao" cols="24" rows="3" required></textarea><br>
                 
                  <label for="value">Valor do Produto:</label><br>
                  <input type="number" id="value" required><br>  
@@ -26,7 +27,7 @@
                  <label>Disponível para venda:</label><br>
 
                  <label for="dispobivel-s">Sim</label>
-                 <input type="radio" id="dispobivel-s" value="Sim" checked>
+                 <input type="radio" id="dispobivel-s" value="Sim" >
 
                  <label for="dispobivel-n">Não</label>
                  <input type="radio" id="dispobivel-n" value="Não"><br>
@@ -47,11 +48,13 @@
                         <th>Disponível</th>
                     </tr>
                 </thead>
-                
+
             <tbody id=""></tbody>    
             </table>
         </div>
     </div>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
