@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('2151123688.jpg');
+    background-size: cover;
+    background-position: center;   
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+/* .hidden{
+    display: none;
+} */
+
+table, th{
+    border: 1px solid #ffffff;
+}
