@@ -15,5 +15,17 @@ formProdutos.addEventListener('submit', function(event) {
     const disponivel = document.querySelector('input[name = "disp"]:checked').value;
 
     products.push({nome, descricao, numero, disponivel})
-    
+
+    products.sort(function(a,b){
+        return a.value - b.value;
+    });
+
+    updateProductList();
+
+    formContainer.classList.add('hidden');
+    listContainer.classList.remove('remove');
+
+    formProdutos.reset();
+
 })
+
